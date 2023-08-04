@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
  
 
 class Counter extends Component {
@@ -59,7 +58,7 @@ class Counter extends Component {
         <button onClick={this.decrement}>Decrement</button>
 
         <button onClick={this.reset} style={{ backgroundColor: 'red', color: 'black' }}>Reset</button>
-
+        
       </div>
 
     );

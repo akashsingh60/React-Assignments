@@ -1,0 +1,27 @@
+*{
+    background-color: rgb(189, 189, 189);
+}
+
+h1 {
+    color: white;
+    font-size: 90px;
+    font-family: cursive;
+    padding-top: 80px;
+    text-align: center;
+    
+}
+
+.div .button-div {
+    padding-top: 40px;
+    display: flex;
+    align-items: baseline;
+    justify-content:center;
+   
+}
+.div .button-div button{
+    background-color: black;
+    border-radius: 10px 5px;
+    margin-left: 40px;
+    padding: 10px 8px;
+}
+
