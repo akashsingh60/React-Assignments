@@ -1,0 +1,35 @@
+.button1 {
+    margin-left : 20px;
+    color : white;
+    font-size: 17px;
+    border : none;
+    height : 2.5rem;
+    width : 6rem;
+    border-radius : 6px;
+    font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight : bold;
+    cursor : pointer;
+}
+.increment {
+    background-color: rgb(7, 150, 7);
+}
+
+.decrement {
+    background-color : rgb(189, 25, 25);
+}
+
+.reset {
+    background-color: rgb(48, 47, 47);
+}
+
+.increment:hover {
+    background-color: green;
+}
+
+.decrement:hover {
+    background-color: red;
+}
+
+.reset:hover{
+    background-color: black;
+}

@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-// import App from './App';
-import Main from './main-page'
+// import './index.css';
+import App from './App';
+// import Main from './main-page'
 import reportWebVitals from './reportWebVitals';
-
+// import Api from './api';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Main/>
- 
-  </React.StrictMode>
+    
+    { <App/> }
+    {/* <Api/> */}
+   </React.StrictMode>
 );
 
 
